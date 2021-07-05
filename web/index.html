@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="cirilla">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>cirilla</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body {
+            background-color: #000;
+        }
+
+        .loading {
+            margin: 300px auto 0;
+            text-align: center;
+        }
+    </style>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLy-B1zjKT5D6rtOcHYJdT_EGUYY4OKS8"></script>
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+<script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyAQaiyomtr_f-4tbBotvGi6T7tCs1OzrIo",
+      authDomain: "cirilla-rnlab.firebaseapp.com",
+      databaseURL: "https://cirilla-rnlab.firebaseio.com",
+      projectId: "cirilla-rnlab",
+      storageBucket: "cirilla-rnlab.appspot.com",
+      messagingSenderId: "295269595518",
+      appId: "1:295269595518:web:9e19ff9142d25651095b2f",
+      measurementId: "G-0MNTSB8L2C"
+    };
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script>
+  var FACEBOOK_APP_ID = "866704613752405";
+  window.fbAsyncInit = function () {
+    FB.init({
+      appId: FACEBOOK_APP_ID,
+      cookie: true,
+      xfbml: true,
+      version: "v9.0",
+    });
+    FB.AppEvents.logPageView();
+  };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+<script src="flutter_facebook_auth.js" type="application/javascript"></script>
+<div class="loading">
+
+    <div class="loadingio-spinner-spinner-5lu2nt6ulc6">
+        <div class="ldio-16jgk0fs8kl">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <style type="text/css">
+        @keyframes ldio-16jgk0fs8kl {
+            0% {
+                opacity: 1
+            }
+            100% {
+                opacity: 0
+            }
+        }
+
+        .ldio-16jgk0fs8kl div {
+            left: 47.5px;
+            top: 21.5px;
+            position: absolute;
+            animation: ldio-16jgk0fs8kl linear 1s infinite;
+            background: #ffffff;
+            width: 5px;
+            height: 17px;
+            border-radius: 2.5px / 3.23px;
+            transform-origin: 2.5px 28.5px;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(1) {
+            transform: rotate(0deg);
+            animation-delay: -0.9166666666666666s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(2) {
+            transform: rotate(30deg);
+            animation-delay: -0.8333333333333334s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(3) {
+            transform: rotate(60deg);
+            animation-delay: -0.75s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(4) {
+            transform: rotate(90deg);
+            animation-delay: -0.6666666666666666s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(5) {
+            transform: rotate(120deg);
+            animation-delay: -0.5833333333333334s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(6) {
+            transform: rotate(150deg);
+            animation-delay: -0.5s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(7) {
+            transform: rotate(180deg);
+            animation-delay: -0.4166666666666667s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(8) {
+            transform: rotate(210deg);
+            animation-delay: -0.3333333333333333s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(9) {
+            transform: rotate(240deg);
+            animation-delay: -0.25s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(10) {
+            transform: rotate(270deg);
+            animation-delay: -0.16666666666666666s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(11) {
+            transform: rotate(300deg);
+            animation-delay: -0.08333333333333333s;
+            background: #ffffff;
+        }
+
+        .ldio-16jgk0fs8kl div:nth-child(12) {
+            transform: rotate(330deg);
+            animation-delay: 0s;
+            background: #ffffff;
+        }
+
+        .loadingio-spinner-spinner-5lu2nt6ulc6 {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            overflow: hidden;
+            background: #000000;
+        }
+
+        .ldio-16jgk0fs8kl {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform: translateZ(0) scale(1);
+            backface-visibility: hidden;
+            transform-origin: 0 0; /* see note above */
+        }
+
+        .ldio-16jgk0fs8kl div {
+            box-sizing: content-box;
+        }
+    </style>
+
+</div>
+<!-- This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('flutter-first-frame', function () {
+      navigator.serviceWorker.register('flutter_service_worker.js');
+    });
+  }
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

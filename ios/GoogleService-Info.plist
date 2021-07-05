@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>295269595518-4mq9tp8tgbgod6j299ef38q7difnqonu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.295269595518-4mq9tp8tgbgod6j299ef38q7difnqonu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>295269595518-301q7d8gl5m0ln8i2sap85vemdujj2hl.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQjTLTNlEJNDh2iFJgPji-JzTlf6De9U4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>295269595518</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.rnlab.cirilla</string>
+	<key>PROJECT_ID</key>
+	<string>cirilla-rnlab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cirilla-rnlab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:295269595518:ios:0f92c0fb091c3dcf095b2f</string>
+	<key>DATABASE_URL</key>
+	<string>https://cirilla-rnlab.firebaseio.com</string>
+</dict>
+</plist>
